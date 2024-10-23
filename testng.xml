@@ -1,0 +1,7 @@
+<suite name="MegogoSuite" parallel="methods" thread-count="4">
+    <test name="MegogoTests">
+        <classes>
+            <class name="api.MegogoTest"/>
+        </classes>
+    </test>
+</suite>
