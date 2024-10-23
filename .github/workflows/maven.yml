@@ -36,7 +36,7 @@ jobs:
     - name: Upload Allure Report
       uses: actions/upload-artifact@v3
       with:
-      name: allure-report
+      name: Allure Plugin
       path: target/site/allure-maven-plugin
 
     #  Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
